@@ -23,7 +23,7 @@ public class Pessoa extends BaseEntity {
     @NotBlank
     String nome;
     int idade;
-    boolean admin = false;
+    boolean isAdmin = false;
 
     //Endereco endereco;
 }
