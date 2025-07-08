@@ -19,12 +19,11 @@ import ufrn.br.aularest2025.core.base.BaseEntity;
 @EqualsAndHashCode(callSuper = true)
 @SQLDelete(sql = "UPDATE pessoa SET deleted_at = CURRENT_TIMESTAMP where id=?")
 @SQLRestriction("deleted_at is null")
-
 public class Pessoa extends BaseEntity {
     @NotBlank
     String nome;
     int idade;
     boolean admin = false;
 
-    Endereco endereco;
+    //Endereco endereco;
 }

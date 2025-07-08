@@ -1,7 +1,6 @@
 package ufrn.br.aularest2025.controller;
 
 
-import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ufrn.br.aularest2025.core.exception.PessoaNotFoundExpection;
