@@ -36,14 +36,19 @@ public class SecurityConfig {
             "/swagger-resources/**",
             "/configuration/ui",
             "/configuration/security",
+            "/swagger/",
             "/swagger-ui.html",
             "/webjars/**",
+            "/v3/api-docs",
             "/v3/api-docs/**",
             "/api/public/authenticate",
             "/actuator/*",
             "/swagger-ui/**",
+            "/api-docs/swagger-config/",
             "/token",
-            "/credenciais"
+            "/credenciais",
+            "/api-docs",
+            "/api-docs/**"
     };
 
     public SecurityConfig(RsaKeyProperties rsaKeys) {
